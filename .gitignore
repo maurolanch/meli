@@ -1,28 +1,18 @@
-# Ignorar archivos de entorno y configuración local
 .env
 *.env
-
-# Archivos compilados de Python y directorios de cache
 __pycache__/
 *.py[cod]
-
-# Archivos de logs y temporales
 *.log
 *.tmp
-
-# Ignorar notebooks y directorios de prueba (si no son necesarios en el repositorio)
 *.ipynb
 notebooks/
 pruebas/
 tests/
-
-# Opcional: ignorar archivos de configuración del entorno local de IDE (ej. VSCode)
 .vscode/
 .idea/
-
-# Ignorar archivos generados por el sistema
 .DS_Storegit
 
 *.json
 
-# Ignorar archivos de configuración de Jupyter Notebook
+
+airflow_venv/
